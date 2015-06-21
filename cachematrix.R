@@ -6,7 +6,8 @@
 ## Objective: To learn how lexical scoping can be used for caching to
 ## avoid unnecessary repeated operations.  Note that <- assigns a
 ## variable only in the local environment while <<- modifies an
-## existing variable found by walking up the parent environment.
+## existing variable found by walking up the parent environment.  See 
+## http://adv-r.had.co.nz/Environments.html for more on environments.
 
 ## makeCacheMatrix() takes a matrix as its input and caches the
 ## inverse of a matrix when cacheSolve() is called.  It stores 4
